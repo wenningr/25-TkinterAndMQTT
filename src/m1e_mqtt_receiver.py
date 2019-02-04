@@ -18,7 +18,7 @@ def main():
     my_delegate = DelegateThatReceives()
     mqtt_client = com.MqttClient(my_delegate)
     mqtt_client.connect(name1, name2)
-    time.sleep(1)  # Time to allow the MQTT setup.
+    time.sleep(1)  # Time to allow the MQTT setup
     print()
 
     while True:
