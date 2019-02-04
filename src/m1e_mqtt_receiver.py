@@ -6,8 +6,9 @@ import time
 
 class DelegateThatReceives(object):
 
-    def say_it(self, message):
-        print("Message received!", message)
+    def say_it(self, message, n, who_sent_it):
+        for _ in range(int(n)):
+            print("Message received!", message)
 
 
 def main():

@@ -9,7 +9,7 @@ Using a fake robot as the receiver of messages.
 # Then modify it so that pressing a button sends a message to a teammate
 # of the form:
 #   (for Forward)
-#        ["forward", X, y]
+#        "forward", {X, y]
 #   where X and Y are from the entry box.
 #
 # Implement and test.
